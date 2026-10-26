@@ -4,7 +4,6 @@
 #include "book.h"
 #include <vector>
 using namespace std;
-vector<User> users;
 class User{
 public:
     string name;
@@ -29,3 +28,4 @@ public:
     }
     void addbook(Book book){}
 };
+vector<User> users;
